@@ -22,7 +22,7 @@ def addf(text, filename): # This function adds the text without rewriting the fi
     file.close()
 
 def database(data): # This function adds records in database file
-    file = open("database.txt","a")
+    file = open("data.txt","a")
     for i,n,a,l in data:
         file.write(f"{i:5} {n:15} {a:3} {l:12}\n")
         print(f"{i:5} {n:15} {a:3} {l:12}")
