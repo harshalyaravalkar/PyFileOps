@@ -1,5 +1,6 @@
 def creatf(name):
     file = open(f"{name}.txt","a")
+    file.close()
 
 
 def readf(name):
